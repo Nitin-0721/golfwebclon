@@ -1,4 +1,4 @@
-# ⛳ Sidcup Family Golf Clone – Full Stack Web Application
+# ⛳ Sidcup Family Golf Clone – Web Application
 
 A full-stack Golf Club web application inspired by the Sidcup Family Golf website.  
 This project combines an interactive animated frontend with a custom backend authentication system and MongoDB database integration.
