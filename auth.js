@@ -1,5 +1,5 @@
 // ─── CONFIG ────
-const API_BASE = "http://localhost:3000/api";
+const API_BASE = "/api";
 
 function isValidEmail(email) {
   return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
