@@ -684,4 +684,145 @@ video{
   border-radius: 40px;
   padding: 5px;
 }
+ 
+/* MOBILE RESPONSIVE DESIGN */
+ 
+@media (max-width: 768px){
 
+    #nav{
+        padding: 15px 20px;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    #nav img{
+        height: 55px;
+    }
+
+    #nav h4{
+        font-size: 12px;
+    }
+
+    #page1 h1{
+        font-size: 52px;
+        line-height: 55px;
+        text-align: center;
+    }
+
+    #page1 h2{
+        font-size: 26px;
+        text-align: center;
+    }
+
+    #page1 p{
+        width: 90%;
+        font-size: 14px;
+        text-align: center;
+    }
+
+    #about-us{
+        flex-direction: column;
+        gap: 30px;
+        padding: 40px 20px;
+    }
+
+    #about-us img{
+        width: 90%;
+        height: 220px;
+        object-fit: cover;
+    }
+
+    #about-us-in{
+        width: 100%;
+    }
+
+    #about-us-in h3{
+        font-size: 36px;
+    }
+
+    #about-us-in p{
+        font-size: 15px;
+        line-height: 28px;
+    }
+
+    #cards-container{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card{
+        width: 90%;
+        height: 300px;
+    }
+
+    #banner{
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
+        padding: 30px 20px;
+    }
+
+    #banner h4{
+        width: 100%;
+        font-size: 22px;
+        line-height: 35px;
+    }
+
+    #page3 p{
+        width: 90%;
+        font-size: 20px;
+        line-height: 35px;
+    }
+
+    #page4{
+        padding: 40px 20px;
+    }
+
+    #page4 h1{
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .elem{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .elem h2{
+        font-size: 22px;
+    }
+
+    #footer{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 30px;
+        padding: 40px 20px;
+    }
+
+    #footer h1{
+        font-size: 22px;
+    }
+
+    #footer h3{
+        font-size: 16px;
+    }
+
+    #gate-box{
+        width: 90%;
+        padding: 25px;
+    }
+
+    #gate-box h2{
+        font-size: 24px;
+    }
+
+    .submit-btn{
+        font-size: 16px;
+    }
+
+    video{
+        object-fit: cover;
+    }
+}
