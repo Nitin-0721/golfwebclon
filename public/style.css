@@ -377,10 +377,9 @@ video{
     margin-bottom: 8px;
 }
 
-/* =========================================================
-   AUTH NAV BUTTONS
-   ========================================================= */
-#auth-buttons {
+    /* AUTH NAV BUTTONS */
+    
+ #auth-buttons {
     display: flex;
     align-items: center;
     gap: 10px;
